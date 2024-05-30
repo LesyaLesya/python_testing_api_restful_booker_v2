@@ -20,12 +20,12 @@ class BaseTest:
 
         # endpoints
         self.ep_booker = booker()
-        self.ep_auth = auth()
-        self.ep_ping = ping()
-        self.query = QueryParams()
+        self.ep_auth = auth
+        self.ep_ping = ping
+        self.query = QueryParams
 
         # schemas
-        self.xsd_schema = XSDSchemas()
+        self.xsd_schema = XSDSchemas
         self.create_schema = CreateBookingSchema
         self.get_schema = GetBookingSchema
         self.get_ids_schema = GetBookingIds
